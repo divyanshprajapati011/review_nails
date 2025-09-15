@@ -3,7 +3,7 @@ import streamlit as st
 import random
 import streamlit.components.v1 as components
 
-st.set_page_config(page_title="Comfort Physiotherapy Centre Bhopal Review Picker", page_icon="⭐", layout="centered")
+st.set_page_config(page_title="Artistic_nails_by_Rajan Review Picker", page_icon="⭐", layout="centered")
 
 # ===== Title + Styles =====
 st.markdown("""
@@ -53,11 +53,11 @@ st.markdown("""
         }
     </style>
 
-    <h1 class="title-text">⭐ Welcome to Comfort Physiotherapy Centre Bhopal Review Page</h1>
+    <h1 class="title-text">⭐ Welcome to Artistic_nails_by_Rajan Review Page</h1>
 """, unsafe_allow_html=True)
 
 # ===== Google Review URL =====
-GOOGLE_REVIEW_URL = "https://g.page/r/Cfzx7F2pZnKEEAE/review"
+GOOGLE_REVIEW_URL = "https://g.page/r/Cff9b0HSzthNEAE/review"
 
 # ===== Load Reviews =====
 try:
@@ -102,5 +102,6 @@ if st.session_state.selected_review:
     """, height=100)
 else:
     st.info("👆 First generate a review to continue.")
+
 
 
